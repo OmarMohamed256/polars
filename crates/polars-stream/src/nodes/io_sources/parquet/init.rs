@@ -541,6 +541,7 @@ impl ParquetReadImpl {
                                 arrow_field.dtype.clone(),
                                 predicate.clone(),
                                 p.specialized.clone(),
+                                p.fallible,
                             )),
                             include_values: constant.is_none(),
                         });

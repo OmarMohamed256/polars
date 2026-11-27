@@ -292,6 +292,7 @@ fn create_staged_predicate(
                     PhysicalColumnPredicate {
                         predicate,
                         specialized: p.specialized,
+                        fallible: p.fallible,
                         dynamic,
                     },
                 ))
